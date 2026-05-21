@@ -1,16 +1,16 @@
-## Hi there 👋
+# Diabetes Prediction App
 
-<!--
-**sakshi-data-tech/sakshi-data-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This project demonstrates deployment of a machine learning model using Streamlit.
 
-Here are some ideas to get you started:
+## Contents
+- `Diabetes_Logistic_Regression.ipynb` → Jupyter notebook for training and saving model
+- `log_reg_model.pkl` → Saved logistic regression model
+- `scaler.pkl` → Saved scaler
+- `app.py` → Streamlit app for prediction
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## How to Run Locally
+1. Clone the repository
+2. Install requirements: `pip install streamlit numpy pickle-mixin`
+3. Run the app:
+   ```bash
+   python -m streamlit run app.py
